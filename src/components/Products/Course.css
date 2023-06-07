@@ -1,0 +1,210 @@
+.container{
+    margin: 3rem;
+    display: flex;
+}
+.course-name .head{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(61, 151, 203);
+    cursor:default;
+
+}
+.head i{
+  font-size: 1.2rem;
+  color:#222;
+}
+.head h4{
+  font-size: 1.2rem;
+}
+
+.course-name{
+  flex: 1 1 6rem;
+  margin-top: 1.4rem;
+}
+
+.course-content{
+  flex: 1 1 55rem;
+}
+
+.library{
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 1rem;
+
+}
+
+.data{
+  flex: 1 1 16rem;
+  overflow: hidden;
+  /* border: 1px solid blue; */
+  max-width: 260px;
+  height: 335px;
+  box-sizing: content-box;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  
+}
+
+.data .free{
+  margin: .5rem 1.5rem;
+  padding: 1.5rem 0;
+  border-bottom: 2px solid rgb(132, 129, 129); ;
+
+}
+.free h5{
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+.data .text{
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #222;
+  text-align: right;
+  padding-right: 2rem;
+  
+}
+
+
+.data img{
+  width: 100%;
+  height: 125px;
+  overflow-clip-margin:content-box;
+}
+.data img :hover{
+  motion: none;
+}
+
+
+.tabs{
+    display: block;
+    /* width: 250px; */
+    /* padding: 1rem 1rem; */
+    /* margin: 4px 0; */
+    padding:1.5rem 3.5rem;
+    text-align: center;
+    width: 55%;
+    background: rgba(128, 128, 128, 0.075);
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+}
+
+.active-tabs{
+  color: #4098e0;
+}
+button{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.content-tabs {
+  flex-grow : 1;
+}
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+.content hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+.content p {
+  width: 100%;
+  height: 100%;
+}
+.active-content {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .tabs {
+    padding: 15px;
+    text-align: center;
+    width: 50%;
+    background: rgba(128, 128, 128, 0.075);
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+  }
+  .tabs:not(:last-child){
+    border-right: 1px solid rgba(0, 0, 0, 0.274);
+  }
+  
+  .active-tabs  {
+    background: white;
+    border-bottom: 1px solid transparent;
+  }
+  
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    background: rgb(88, 147, 241);
+  } */
+  
+  
+  
+  button {
+    border: none;
+    
+  }
+  .content-tabs {
+    flex-grow : 1;
+  }
+  .content {
+    background: white;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .content h2 {
+    padding: 0px 0 5px 0px;
+  }
+  .content hr {
+    width: 100px;
+    height: 2px;
+    background: #222;
+    margin-bottom: 5px;
+  }
+  .content p {
+    width: 100%;
+    height: 100%;
+  }
+  .active-content {
+    display: block;
+  }
